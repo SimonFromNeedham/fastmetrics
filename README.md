@@ -1,0 +1,33 @@
+# Fast Metrics
+
+This project provides a set of faster alternatives to some of the methods in sklearn.metrics. If you use any of the classification metrics supported by this package, you will see a vast improvement in the runtime of your code, up to 100x depending on the function used and the size of the data set. Speedups were achieved by using Numba to vectorize the generation of confusion matrices.
+
+Fast Metrics supports the following metrics:
+* Accuracy Score
+* Balanced Accuracy Score
+* F1 Score
+* Precision
+* Recall
+* Jaccard Score
+* ROC AUC
+
+## Installation
+
+Run the following to install:
+```python
+pip install fastmetrics
+```
+
+## Usage
+
+Use Fast Metrics the same way you would use sklearn.metrics. Feed the methods a NumPy array of true results and a NumPy array of predictions, and they will return their respective metric. For instance:
+
+```python
+fastmetrics.fast_accuracy_score(y_true, y_pred)
+fastmetrics.fast_balanced_accuracy_score(y_true, y_pred)
+fastmetrics.fast_f1_score(y_true, y_pred)
+```
+
+## Additional Notes:
+* Unlike sklearn, Fast Metrics methods do not have additional optional arguments beyond y_true and y_pred.
+* The first time you run a Fast Metrics function, it will be slower than its sklearn counterpart because the vectorized confusion matrix code needs time to compile.

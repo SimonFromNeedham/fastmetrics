@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fastmetrics/__init__.py
+src/fastmetrics/fastmetrics.py
+src/fastmetrics.egg-info/PKG-INFO
+src/fastmetrics.egg-info/SOURCES.txt
+src/fastmetrics.egg-info/dependency_links.txt
+src/fastmetrics.egg-info/top_level.txt
