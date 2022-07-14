@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: fastmetrics
-Version: 0.0.3
+Version: 0.0.10
 Summary: Does the same thing as sklearn.metrics but 100x faster.
 Home-page: https://github.com/SimonFromNeedham/fastmetrics
 Author: Simon Albert Traub

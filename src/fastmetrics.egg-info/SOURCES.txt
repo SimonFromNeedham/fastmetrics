@@ -7,4 +7,5 @@ src/fastmetrics/fastmetrics.py
 src/fastmetrics.egg-info/PKG-INFO
 src/fastmetrics.egg-info/SOURCES.txt
 src/fastmetrics.egg-info/dependency_links.txt
+src/fastmetrics.egg-info/requires.txt
 src/fastmetrics.egg-info/top_level.txt
