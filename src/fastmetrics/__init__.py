@@ -1,0 +1,7 @@
+from fastmetrics.fastmetrics import fast_accuracy_score
+from fastmetrics.fastmetrics import fast_balanced_accuracy_score
+from fastmetrics.fastmetrics import fast_f1_score
+from fastmetrics.fastmetrics import fast_precision_score
+from fastmetrics.fastmetrics import fast_recall_score
+from fastmetrics.fastmetrics import fast_jaccard_score
+from fastmetrics.fastmetrics import fast_roc_auc_score
